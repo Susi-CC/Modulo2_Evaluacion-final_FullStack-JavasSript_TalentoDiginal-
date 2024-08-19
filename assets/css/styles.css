@@ -1,0 +1,274 @@
+   /**/
+   /* Todo */
+   /**/
+
+   * {
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       box-sizing: border-box;
+       color: white;
+   }
+
+   /* navbar*/
+   .navbar {
+       background-color: rgb(193, 134, 207);
+       padding-inline: 10%;
+       margin: 0%;
+       padding-bottom: 0%;
+       padding-top: 0%;
+   }
+
+   .nav-link {
+       color: white;
+       font-size: 23px;
+   }
+
+   #Link-articulo {
+       margin-bottom: 0%;
+       margin-inline: 3.7%;
+       font-size:medium;
+   }
+
+
+   /* Titulos */
+
+   .titulo {
+       color: white;
+       text-shadow: 1px 1px 2px black;
+       margin-left: 2%;
+       margin-top: 2%;
+       background: none;
+       border: none;
+       padding: 0;
+   }
+
+   .subtitulo {
+       color: rgb(120, 243, 247);
+       text-shadow: 3px 3px 3px rgb(0, 0, 0);
+       margin-bottom: 0%;
+
+   }
+
+   #cargo {
+       color: rgb(181, 239, 247);
+       text-shadow: 1px 1px 2px black;
+       margin-top: 0%;
+       margin-bottom: 3%;
+   }
+
+   .texto{
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+    .lista{
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+   /* card */
+
+   .card {
+       margin-inline: auto;
+
+       margin-bottom: 5%;
+   }
+
+   .card-text {
+       color: black;
+   }
+
+   /* articulo ver mas/menos */
+
+   #ver-mas-art {
+       background: none;
+       border: none;
+       padding: 0;
+       color: #069;
+       text-decoration: underline;
+   }
+
+   #ver-menos-art {
+       background: none;
+       border: none;
+       padding: 0;
+       color: #069;
+       text-decoration: underline;
+   }
+
+   .oculto {
+       display: none
+   }
+
+   /*Contacto*/
+   .form-label{
+    text-shadow: 1px 1px 2px black;
+
+   }
+
+   .correo{
+    text-shadow: 1px 1px 2px black;
+    color: rgb(164, 190, 247);
+    font-weight: bold;
+
+   }
+
+   .contacto-marcas{
+    text-decoration: none;
+   }
+
+   /*Fondo*/
+   body {
+       background-image: url("https://cdn.pixabay.com/photo/2021/06/04/20/14/lavender-6310895_960_720.jpg");
+       background-repeat: repeat;
+       background-attachment: fixed;
+       background-position: left;
+       background-size: 25%;
+
+   }
+
+   /**/
+   /* Celular */
+   /**/
+
+   .titulo {
+       font-size: x-large;
+
+   }
+
+   .subtitulo {
+       font-size: 25px;
+   }
+
+   #cargo {
+       font-size: 20px;
+   }
+
+   .texto {
+       font-size: 17px;
+   }
+
+   #yo {
+
+       width: 40%;
+       height: auto;
+       margin-bottom: 5%;
+   }
+
+   .card-text {
+       font-size: 15px;
+   }
+
+   .card-title {
+       font-size: 17px;
+       color: rgb(0, 0, 0);
+
+       font-weight: bold;
+
+   }
+
+   #voltage {
+       font-size: 16px;
+       font-weight: bold;
+   }
+
+
+   /**/
+   /* tablet */
+   /**/
+ /*El tamaño coincide con el md del grid system de bootstrap*/
+   @media(min-width:768px) {
+
+       #yo {
+
+           width: 50%;
+           height: auto;
+           margin-left: 20%;
+       }
+
+   }
+
+   /**/
+   /* Pantallas grandes */
+   /**/
+ /*El tamaño coincide con el lg del grid system de bootstrap*/
+
+   @media(min-width:992px) {
+
+       * {
+           font-size: 25px;
+       }
+
+       .titulo {
+           font-size: xx-large;
+
+       }
+
+       /* Que queden centradas las cosas el navbas */
+       #caracol {
+           margin-left: 2%;
+       }
+
+       .subtitulo {
+           font-size: 33px;
+       }
+
+       #cargo {
+           font-size: 30px;
+       }
+
+       .texto {
+           font-size: 25px;
+       }
+
+       #yo {
+
+           width: 60%;
+           height: auto;
+           margin-bottom: 5%;
+       }
+       .cosas{
+        margin-top: 3%;
+       }
+
+       .card-text {
+           font-size: 20px;
+       }
+
+
+       .card-title {
+           font-size: 25px;
+           color: rgb(0, 0, 0);
+
+           font-weight: bold;
+
+       }
+
+       #voltage {
+           font-size: 22px;
+           font-weight: bold;
+       }
+       #Link-articulo {
+        margin-inline: 0%;
+    }
+   }
+
+
+   /**/
+   /* Pantallas extra-extra-grandes */
+   /**/
+
+    /*El tamaño coincide con el xxl del grid system de bootstrap*/
+
+   @media(min-width:1400px) {
+
+       .card {
+           margin-inline: 3%;
+       }
+
+       /* Que queden centradas las cosas el navbas */
+       #caracol {
+           margin-left: 2%;
+       }
+
+
+
+   }
