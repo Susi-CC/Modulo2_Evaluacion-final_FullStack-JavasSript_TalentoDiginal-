@@ -1,6 +1,6 @@
 Curso FullStack JavaScript
 
-Práctica de consolidación del módulo 2.
+Práctica de consolidación del módulo 2 "Fundamentos de desarrollo Front End".
 
 Index.html es el código html
 
