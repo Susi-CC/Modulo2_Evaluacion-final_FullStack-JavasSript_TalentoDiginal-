@@ -1,6 +1,9 @@
-Curso FullStack JavaScript
+## Práctica de consolidación del módulo 2 "Fundamentos de desarrollo Front End".
+# Curso FullStack JavaScript
 
-Práctica de consolidación del módulo 2 "Fundamentos de desarrollo Front End".
+El trabajo consistía en hacer un portafolio.
+
+### Contenido:
 
 Index.html es el código html
 
